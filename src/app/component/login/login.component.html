@@ -1,0 +1,38 @@
+<div>
+  <form  class="form-main"  [formGroup]="form" (ngSubmit)="submit()">
+    
+<div class="head" fxLayout="row" fxLayoutAlign="center center">
+  <!-- <a mat-flat-button href="https://www.google.com/" target="_blank">LOGIN</a> -->
+  <!-- <a mat-flat-button href="https://www.google.com/" target="_blank">SIGNUP</a> -->
+  <h2>LOGIN</h2>
+</div>
+   <div >
+    <label>Email Id</label>
+  </div> 
+  <div class="input1" fxLayout="row" fxLayoutAlign="center center">  
+    <input formControlName="email" type="text" id="Email" name="Email" placeholder="Email " required>
+</div>
+<br>
+<div class="input">
+  <label >Password</label> 
+<br>
+
+<input formControlName="password" matInput [type]="hide ? 'password' : 'text'">
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+ <!-- <div>
+  <label >Password</label> 
+  <div class="input" fxLayout="row" fxLayoutAlign="center center" >
+    <input id="password" type="password"  name="password" >
+  </div> -->
+
+  
+  <br>
+  <div >
+    <button type="button" class="btn" type="submit">LOGIN</button>
+  </div >
+  
+</div>
+</form>
+</div>

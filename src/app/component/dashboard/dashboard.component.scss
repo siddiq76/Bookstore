@@ -1,0 +1,141 @@
+.formcontainer{
+    width: 80%;
+    align-items: center;
+    padding: 10px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+
+    
+}
+.item{
+width: 90%;
+align-items: center;
+}
+.text{
+    margin-left: 0px;
+    
+font: normal normal normal 14px/19px Roboto;
+letter-spacing: 0px;
+color: #0A0102;
+opacity: 1;
+}
+
+.author{
+margin-left: 4px;
+font: normal normal normal 10px/13px Roboto;
+letter-spacing: 0px;
+color: #878787;
+opacity: 1;
+}
+.book{
+    margin-left: 15px;
+    margin-top: 0px;
+    top: 0%;
+}
+.btn{
+    background: #A03037 0% 0% no-repeat padding-box;
+    height: 26px;
+    border: 1px;
+}
+.card1{
+    margin-left: 7px;
+    margin-top: 5%;
+    border: 1px solid #E2E2E2;
+    border-radius: 1px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 10px;
+    margin: 15px;
+    margin-bottom: 4%;
+    bottom: 2px;  
+    width: 200px;
+    height: 248px; 
+
+}
+.add{
+    background-color:#A03037 ;
+    border-radius: 2px;
+    width: 150%; 
+    height: 30px;
+    border-color: black;
+    color:white;
+    padding: 0px;
+    
+    
+}
+.image{
+    padding: 46.5px;
+    
+    width: 400px;
+height: 152px;
+background: #F5F5F5;
+border-radius: 3px;
+opacity: 1;
+
+
+
+}
+.delete{
+    width: 15%;
+    margin-left: 22%;
+    height: 26px;
+    border: 1px;
+    margin-bottom: 1px;
+
+}
+.book2{
+    margin-left: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ 
+
+
+
+.book2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 125px;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 120px;
+    width: 970px;
+    height: 70px;  
+      
+}
+
+.bracket{
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+    opacity: 1;
+}
+
+button{
+    
+    margin-top: 5px;
+    background: #A03037 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    font-weight: normal;
+    display: inline-block;
+    height: 30px;
+    border: none;
+}
+.button1{
+    background: #FFFFFF;
+    width: 200px;
+    border: 1px solid #E2E2E2; 
+    color: #0A0102;   
+}
+.button2{
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2; 
+    color: #0A0102;
+    margin-left: 20px;
+}
+
+
+
+
